@@ -151,9 +151,6 @@ register_activation_hook( __FILE__, 'cf_activate_plugin' );
         echo "<link rel='stylesheet' href='{$css_url}'>";
     }
 
-// add_action( 'admin_post_nopriv_contact_form_submission', 'process_contact_form_submission' );
-// add_action( 'admin_post_contact_form_submission', 'process_contact_form_submission' );
-
 // Créer un menu pour afficher les données envoyées via le formulaire de contact
 add_action( 'admin_menu', 'contact_form_menu' );
 
