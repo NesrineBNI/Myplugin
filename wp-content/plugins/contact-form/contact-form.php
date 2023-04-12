@@ -168,7 +168,7 @@ function contact_form_responses_page() {
 global $wpdb;
 $table_name = $wpdb->prefix . 'contact_form';
 // $table_name = $wpdb->prefix . 'contact_form';
-$results = $wpdb->get_results( "SELECT * FROM $table_name ORDER BY date_envoi ASC" );
+$results = $wpdb->get_results( "SELECT * FROM $table_name ORDER BY date_envoi DESC" );
 ?>
 <div class="wrap">
 <h2>Réponses du formulaire de contact</h2>
