@@ -77,14 +77,7 @@ register_activation_hook( __FILE__, 'cf_activate_plugin' );
                     'message' => $message,
                     'date_envoi' => current_time( 'mysql' )
                 ),
-                array(
-                    '%s',
-                    '%s',
-                    '%s',
-                    '%s',
-                    '%s',
-                    '%s'
-                )
+                
             );
 
               $output = '<p class="success">Your message has been sent.</p>';
